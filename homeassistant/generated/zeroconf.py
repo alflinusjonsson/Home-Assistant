@@ -6,6 +6,9 @@ To update, run python3 -m script.hassfest
 # fmt: off
 
 ZEROCONF = {
+    "_appletv-v2._tcp.local.": [
+        "apple_tv"
+    ],
     "_axis-video._tcp.local.": [
         "axis",
         "doorbird"
@@ -31,11 +34,17 @@ ZEROCONF = {
     "_ipps._tcp.local.": [
         "ipp"
     ],
+    "_mediaremotetv._tcp.local.": [
+        "apple_tv"
+    ],
     "_printer._tcp.local.": [
         "brother"
     ],
     "_spotify-connect._tcp.local.": [
         "spotify"
+    ],
+    "_touch-able._tcp.local.": [
+        "apple_tv"
     ],
     "_viziocast._tcp.local.": [
         "vizio"
