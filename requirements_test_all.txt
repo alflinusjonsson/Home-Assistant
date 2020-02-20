@@ -467,7 +467,7 @@ pyarlo==0.2.3
 pyatmo==3.3.0
 
 # homeassistant.components.apple_tv
-pyatv==0.4.0a16
+pyatv==0.4.0
 
 # homeassistant.components.blackbird
 pyblackbird==0.5
